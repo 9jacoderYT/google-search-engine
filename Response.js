@@ -1,367 +1,279 @@
 export default {
-    "kind": "customsearch#search",
-    "url": {
-        "type": "application/json",
-        "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+  kind: "customsearch#search",
+  url: {
+    type: "application/json",
+    template:
+      "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json",
+  },
+  queries: {
+    request: [
+      {
+        title: "Google Custom Search - goat",
+        totalResults: "12650000000",
+        searchTerms: "goat",
+        count: 10,
+        startIndex: 1,
+        inputEncoding: "utf8",
+        outputEncoding: "utf8",
+        safe: "off",
+        cx: "84c3c22721a9a407f",
+        searchType: "image",
+      },
+    ],
+    nextPage: [
+      {
+        title: "Google Custom Search - goat",
+        totalResults: "12650000000",
+        searchTerms: "goat",
+        count: 10,
+        startIndex: 11,
+        inputEncoding: "utf8",
+        outputEncoding: "utf8",
+        safe: "off",
+        cx: "84c3c22721a9a407f",
+        searchType: "image",
+      },
+    ],
+  },
+  context: {
+    title: "search-engine",
+  },
+  searchInformation: {
+    searchTime: 0.522686,
+    formattedSearchTime: "0.52",
+    totalResults: "12650000000",
+    formattedTotalResults: "12,650,000,000",
+  },
+  items: [
+    {
+      kind: "customsearch#result",
+      title: "Goat - Wikipedia",
+      htmlTitle: "<b>Goat</b> - Wikipedia",
+      link: "https://upload.wikimedia.org/wikipedia/commons/b/b2/Hausziege_04.jpg",
+      displayLink: "en.wikipedia.org",
+      snippet: "Goat - Wikipedia",
+      htmlSnippet: "<b>Goat</b> - Wikipedia",
+      mime: "image/jpeg",
+      fileFormat: "image/jpeg",
+      image: {
+        contextLink: "https://en.wikipedia.org/wiki/Goat",
+        height: 3600,
+        width: 3600,
+        byteSize: 1868901,
+        thumbnailLink:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6UKkwdbXUL2YKVQG1YD4N6z9b-XIuxl-zyGKJbyGboy2MlDWpTGbs1O8X&s",
+        thumbnailHeight: 150,
+        thumbnailWidth: 150,
+      },
     },
-    "queries": {
-        "request": [
-            {
-                "title": "Google Custom Search - jam",
-                "totalResults": "1390000000",
-                "searchTerms": "jam",
-                "count": 10,
-                "startIndex": 1,
-                "inputEncoding": "utf8",
-                "outputEncoding": "utf8",
-                "safe": "off",
-                "cx": "84c3c22721a9a407f"
-            }
-        ],
-        "nextPage": [
-            {
-                "title": "Google Custom Search - jam",
-                "totalResults": "1390000000",
-                "searchTerms": "jam",
-                "count": 10,
-                "startIndex": 11,
-                "inputEncoding": "utf8",
-                "outputEncoding": "utf8",
-                "safe": "off",
-                "cx": "84c3c22721a9a407f"
-            }
-        ]
+    {
+      kind: "customsearch#result",
+      title: "Goat | Smithsonian's National Zoo",
+      htmlTitle: "<b>Goat</b> | Smithsonian&#39;s National Zoo",
+      link: "https://nationalzoo.si.edu/sites/default/files/styles/480x240_scale_and_crop/public/paragraphs/single_image/20180628-634sb.jpg?itok=OYks5j3y&timestamp=1646256051",
+      displayLink: "nationalzoo.si.edu",
+      snippet: "Goat | Smithsonian's National Zoo",
+      htmlSnippet: "<b>Goat</b> | Smithsonian&#39;s National Zoo",
+      mime: "image/jpeg",
+      fileFormat: "image/jpeg",
+      image: {
+        contextLink: "https://nationalzoo.si.edu/animals/goat",
+        height: 240,
+        width: 480,
+        byteSize: 48162,
+        thumbnailLink:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThpGaLtaGBnLhpRTO08AYxVQB5cFrxPQkEFRhQIk-6Upy3AezRL4sIxrA&s",
+        thumbnailHeight: 65,
+        thumbnailWidth: 129,
+      },
     },
-    "context": {
-        "title": "search-engine"
+    {
+      kind: "customsearch#result",
+      title: "Goat - Wikipedia",
+      htmlTitle: "<b>Goat</b> - Wikipedia",
+      link: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hausziege_04.jpg/1200px-Hausziege_04.jpg",
+      displayLink: "en.wikipedia.org",
+      snippet: "Goat - Wikipedia",
+      htmlSnippet: "<b>Goat</b> - Wikipedia",
+      mime: "image/jpeg",
+      fileFormat: "image/jpeg",
+      image: {
+        contextLink: "https://en.wikipedia.org/wiki/Goat",
+        height: 1200,
+        width: 1200,
+        byteSize: 230289,
+        thumbnailLink:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRisG5nu9j7ug6E4MJdRfUgNV0KAzImWTblomzPRrxk6e4jITZLLdfObRF&s",
+        thumbnailHeight: 150,
+        thumbnailWidth: 150,
+      },
     },
-    "searchInformation": {
-        "searchTime": 0.441168,
-        "formattedSearchTime": "0.44",
-        "totalResults": "1390000000",
-        "formattedTotalResults": "1,390,000,000"
+    {
+      kind: "customsearch#result",
+      title: "Never Underestimate a Goat; It's Not As Stupid As It Looks ...",
+      htmlTitle:
+        "Never Underestimate a <b>Goat</b>; It&#39;s Not As Stupid As It Looks ...",
+      link: "https://th-thumbnailer.cdn-si-edu.com/S1QUXEGEJ_0Tr1aiVUSYlKxNP7s=/1000x750/filters:no_upscale()/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/b9/d2/b9d271f3-7f66-4132-b5af-7d33844505b7/goat.jpg",
+      displayLink: "www.smithsonianmag.com",
+      snippet: "Never Underestimate a Goat; It's Not As Stupid As It Looks ...",
+      htmlSnippet:
+        "Never Underestimate a <b>Goat</b>; It&#39;s Not As Stupid As It Looks ...",
+      mime: "image/jpeg",
+      fileFormat: "image/jpeg",
+      image: {
+        contextLink:
+          "https://www.smithsonianmag.com/science-nature/never-underestimate-goat-not-stupid-looks-180950265/",
+        height: 594,
+        width: 797,
+        byteSize: 83222,
+        thumbnailLink:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrNTEqkDfFopRS5EUUJvQ3ocf3SlL0cpPiJKebEPNQ9-cVT351AszAz40&s",
+        thumbnailHeight: 107,
+        thumbnailWidth: 143,
+      },
     },
-    "items": [
-        {
-            "kind": "customsearch#result",
-            "title": "Jam! On Main",
-            "htmlTitle": "<b>Jam</b>! On Main",
-            "link": "https://www.jamonmain.com/",
-            "displayLink": "www.jamonmain.com",
-            "snippet": "Join us for breakfast, brunch, and lunch at Jam! on Main located in Bozeman, Montana.",
-            "htmlSnippet": "Join us for breakfast, brunch, and lunch at <b>Jam</b>! on Main located in Bozeman, Montana.",
-            "cacheId": "rgOV5TM04B0J",
-            "formattedUrl": "https://www.jamonmain.com/",
-            "htmlFormattedUrl": "https://www.<b>jam</b>onmain.com/",
-            "pagemap": {
-                "metatags": [
-                    {
-                        "viewport": "width=device-width, initial-scale=1"
-                    }
-                ]
-            }
-        },
-        {
-            "kind": "customsearch#result",
-            "title": "Jam Definition & Meaning - Merriam-Webster",
-            "htmlTitle": "<b>Jam</b> Definition &amp; Meaning - Merriam-Webster",
-            "link": "https://www.merriam-webster.com/dictionary/jam",
-            "displayLink": "www.merriam-webster.com",
-            "snippet": "jam · 1 of 4. noun (1) · ˈjam. : a food made by boiling fruit and sugar to a thick consistency. jammy. ˈja-mē. adjective. jam · 2 of 4. verb. jammed; jamming.",
-            "htmlSnippet": "<b>jam</b> &middot; 1 of 4. noun (1) &middot; <b>ˈjam</b>. : a food made by boiling fruit and sugar to a thick consistency. jammy. ˈja-mē. adjective. <b>jam</b> &middot; 2 of 4. verb. jammed; jamming.",
-            "cacheId": "fCXo7z6c_70J",
-            "formattedUrl": "https://www.merriam-webster.com/dictionary/jam",
-            "htmlFormattedUrl": "https://www.merriam-webster.com/dictionary/<b>jam</b>",
-            "pagemap": {
-                "cse_thumbnail": [
-                    {
-                        "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSKksTSKYwpW8It403nrjw5t1_a8pLO2PI6ImEG7uvFrNfacgiziPZgG-_O",
-                        "width": "225",
-                        "height": "225"
-                    }
-                ],
-                "metatags": [
-                    {
-                        "msapplication-tilecolor": "#2b5797",
-                        "og:image": "https://merriam-webster.com/assets/mw/static/social-media-share/mw-logo-245x245@1x.png",
-                        "twitter:title": "Definition of JAM",
-                        "twitter:card": "summary",
-                        "theme-color": "#ffffff",
-                        "twitter:url": "https://www.merriam-webster.com/dictionary/jam",
-                        "og:title": "Definition of JAM",
-                        "twitter:aria-text": "Share the Definition of jam on Twitter",
-                        "og:aria-text": "Post the Definition of jam to Facebook",
-                        "og:description": "a food made by boiling fruit and sugar to a thick consistency… See the full definition",
-                        "twitter:image": "https://merriam-webster.com/assets/mw/static/social-media-share/mw-logo-245x245@1x.png",
-                        "referrer": "unsafe-url",
-                        "fb:app_id": "178450008855735",
-                        "twitter:site": "@MerriamWebster",
-                        "viewport": "width=device-width, initial-scale=1.0",
-                        "twitter:description": "a food made by boiling fruit and sugar to a thick consistency… See the full definition",
-                        "og:url": "https://www.merriam-webster.com/dictionary/jam"
-                    }
-                ],
-                "cse_image": [
-                    {
-                        "src": "https://merriam-webster.com/assets/mw/static/social-media-share/mw-logo-245x245@1x.png"
-                    }
-                ]
-            }
-        },
-        {
-            "kind": "customsearch#result",
-            "title": "Jam on Hawthorne • Jam On Hawthorne",
-            "htmlTitle": "<b>Jam</b> on Hawthorne • <b>Jam</b> On Hawthorne",
-            "link": "https://www.jamonhawthorne.com/",
-            "displayLink": "www.jamonhawthorne.com",
-            "snippet": "Jam on Hawthorne is Portland's best vegan-friendly, booze-friendly, kid-friendly, omnivore-friendly, everybody friendly breakfast. Open for indoor dining, ...",
-            "htmlSnippet": "<b>Jam</b> on Hawthorne is Portland&#39;s best vegan-friendly, booze-friendly, kid-friendly, omnivore-friendly, everybody friendly breakfast. Open for indoor dining,&nbsp;...",
-            "cacheId": "KZlyQPg1NBsJ",
-            "formattedUrl": "https://www.jamonhawthorne.com/",
-            "htmlFormattedUrl": "https://www.<b>jam</b>onhawthorne.com/",
-            "pagemap": {
-                "metatags": [
-                    {
-                        "og:type": "website",
-                        "twitter:card": "summary_large_image",
-                        "og:site_name": "Jam On Hawthorne",
-                        "article:modified_time": "2022-02-28T16:09:28+00:00",
-                        "viewport": "width=device-width, initial-scale=1",
-                        "og:title": "Jam on Hawthorne • Jam On Hawthorne",
-                        "og:locale": "en_US",
-                        "og:url": "https://www.jamonhawthorne.com/",
-                        "msapplication-tileimage": "https://www.jamonhawthorne.com/wp-content/uploads/2019/10/cropped-Jam-on-Hawthorne-icon-270x270.png",
-                        "og:description": "Jam on Hawthorne is Portland's best vegan-friendly, booze-friendly, kid-friendly, omnivore-friendly, everybody friendly breakfast. Open for indoor dining, outdoor dining (weather permitting) and walk-up take out 8am-2pm every day.",
-                        "article:publisher": "https://www.facebook.com/jamonhawthornepdx/"
-                    }
-                ]
-            }
-        },
-        {
-            "kind": "customsearch#result",
-            "title": "JaM Cellars | Home",
-            "htmlTitle": "<b>JaM</b> Cellars | Home",
-            "link": "https://jamcellars.com/",
-            "displayLink": "jamcellars.com",
-            "snippet": "Home of easy-to-love wines Butter Chardonnay, ButterCans, Butter Cab and Butter Bubbles. JaM Cabernet, Toast Sparking, and Sugar Sweet White!",
-            "htmlSnippet": "Home of easy-to-love wines Butter Chardonnay, ButterCans, Butter Cab and Butter Bubbles. <b>JaM</b> Cabernet, Toast Sparking, and Sugar Sweet White!",
-            "cacheId": "tgfHK65LTTsJ",
-            "formattedUrl": "https://jamcellars.com/",
-            "htmlFormattedUrl": "https://<b>jam</b>cellars.com/",
-            "pagemap": {
-                "cse_thumbnail": [
-                    {
-                        "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQnhMwtU9FORkfozYIjg5dssiT51LqbJgCPYVzWYqO8u9er9DbQfQYD0AY",
-                        "width": "282",
-                        "height": "178"
-                    }
-                ],
-                "metatags": [
-                    {
-                        "og:image": "https://jamcellars.com/wp-content/uploads/2022/06/hero-e1661269258571.jpg",
-                        "og:type": "website",
-                        "og:image:width": "1439",
-                        "twitter:card": "summary_large_image",
-                        "og:site_name": "JaM Cellars",
-                        "og:title": "JaM Cellars | Home",
-                        "og:image:height": "910",
-                        "og:image:type": "image/jpeg",
-                        "msapplication-tileimage": "https://jamcellars.com/wp-content/uploads/2022/07/cropped-jam-favicon-270x270.jpg",
-                        "og:description": "Home of easy-to-love wines Butter Chardonnay, ButterCans, Butter Cab and Butter Bubbles. JaM Cabernet, Toast Sparking, and Sugar Sweet White!",
-                        "article:publisher": "https://www.facebook.com/JaMCellars/",
-                        "article:modified_time": "2022-11-07T22:15:06+00:00",
-                        "viewport": "width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=5",
-                        "og:locale": "en_US",
-                        "og:url": "https://jamcellars.com/"
-                    }
-                ],
-                "cse_image": [
-                    {
-                        "src": "https://jamcellars.com/wp-content/uploads/2022/06/hero-e1661269258571.jpg"
-                    }
-                ]
-            }
-        },
-        {
-            "kind": "customsearch#result",
-            "title": "Jam | Build a bug-free product.",
-            "htmlTitle": "<b>Jam</b> | Build a bug-free product.",
-            "link": "https://jam.dev/",
-            "displayLink": "jam.dev",
-            "snippet": "Report bugs in seconds, and get back to what you were doing. It's as easy as taking a screenshot. Fast for you, and perfect for the engineers.",
-            "htmlSnippet": "Report bugs in seconds, and get back to what you were doing. It&#39;s as easy as taking a screenshot. Fast for you, and perfect for the engineers.",
-            "cacheId": "9D1vK3D1U-cJ",
-            "formattedUrl": "https://jam.dev/",
-            "htmlFormattedUrl": "https://<b>jam</b>.dev/",
-            "pagemap": {
-                "cse_thumbnail": [
-                    {
-                        "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRucFlb_ExN47S3IqSKJqU2xWtwKQn9U6pMg6Pr_qRpVuiC1YyYZdKrM72V",
-                        "width": "311",
-                        "height": "162"
-                    }
-                ],
-                "metatags": [
-                    {
-                        "og:image": "https://storage.googleapis.com/jam-assets/jam-preview.png?cache-bust=2",
-                        "og:type": "website",
-                        "og:image:width": "1200",
-                        "twitter:title": "Jam | Build a bug-free product.",
-                        "twitter:card": "summary_large_image",
-                        "og:title": "Jam | Build a bug-free product.",
-                        "og:image:height": "630",
-                        "og:description": "Report bugs in seconds, and get back to what you were doing. It's as easy as taking a screenshot. Fast for you, and perfect for the engineers.",
-                        "twitter:creator": "@jamdotdev",
-                        "twitter:image": "https://storage.googleapis.com/jam-assets/jam-preview.png?cache-bust=2",
-                        "next-head-count": "19",
-                        "twitter:site": "@jamdotdev",
-                        "viewport": "initial-scale=1.0, width=device-width",
-                        "twitter:description": "Report bugs in seconds, and get back to what you were doing. It's as easy as taking a screenshot. Fast for you, and perfect for the engineers.",
-                        "og:url": "https://jam.dev"
-                    }
-                ],
-                "cse_image": [
-                    {
-                        "src": "https://storage.googleapis.com/jam-assets/jam-preview.png?cache-bust=2"
-                    }
-                ]
-            }
-        },
-        {
-            "kind": "customsearch#result",
-            "title": "Jam Breakfast & Brunch - Massapequa Park, NY",
-            "htmlTitle": "<b>Jam</b> Breakfast &amp; Brunch - Massapequa Park, NY",
-            "link": "https://www.jamonpark.com/",
-            "displayLink": "www.jamonpark.com",
-            "snippet": "Jam is a cozy breakfast, lunch (dine in, take-out & delivery) restaurant located in the heart of Massapequa Park Village. We offer a diverse selection of ...",
-            "htmlSnippet": "<b>Jam</b> is a cozy breakfast, lunch (dine in, take-out &amp; delivery) restaurant located in the heart of Massapequa Park Village. We offer a diverse selection of&nbsp;...",
-            "cacheId": "41eOgoorusIJ",
-            "formattedUrl": "https://www.jamonpark.com/",
-            "htmlFormattedUrl": "https://www.<b>jam</b>onpark.com/",
-            "pagemap": {
-                "cse_thumbnail": [
-                    {
-                        "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSs1_UNaZ1xQdZKAATHOc4P_ZlfSsHPBWPE5a6hCGLtjOjwzaL-e9jH0pQ",
-                        "width": "259",
-                        "height": "194"
-                    }
-                ],
-                "postaladdress": [
-                    {
-                        "addresslocality": "Massapequa Park,",
-                        "postalcode": "11762",
-                        "addressregion": "NY,",
-                        "name": "Jam",
-                        "streetaddress": "1025 Park Blvd.",
-                        "telephone": "516-797-2000"
-                    }
-                ],
-                "metatags": [
-                    {
-                        "og:image": "https://www.jamonpark.com/assets/IMG-1369.JPG",
-                        "og:type": "website",
-                        "og:site_name": "Jam",
-                        "viewport": "width=device-width, initial-scale=1.0",
-                        "og:title": "Jam Breakfast & Brunch - Massapequa Park, NY",
-                        "og:url": "https://www.jamonpark.com",
-                        "og:description": "Jam is a cozy breakfast, lunch (dine in, take-out & delivery) restaurant located in the heart of Massapequa Park Village. We offer a diverse selection of sha..."
-                    }
-                ],
-                "cse_image": [
-                    {
-                        "src": "https://www.jamonpark.com/assets/IMG-1369.JPG"
-                    }
-                ]
-            }
-        },
-        {
-            "kind": "customsearch#result",
-            "title": "JAM Creative Productions",
-            "htmlTitle": "<b>JAM</b> Creative Productions",
-            "link": "https://www.jingles.com/",
-            "displayLink": "www.jingles.com",
-            "snippet": "JAM creates radio jingles (station IDs), TV jingles, commercial jingles and custom music for clients worldwide from our recording studios in Dallas, Texas.",
-            "htmlSnippet": "<b>JAM</b> creates radio jingles (station IDs), TV jingles, commercial jingles and custom music for clients worldwide from our recording studios in Dallas, Texas.",
-            "cacheId": "3c1UyJ_guSEJ",
-            "formattedUrl": "https://www.jingles.com/",
-            "htmlFormattedUrl": "https://www.jingles.com/"
-        },
-        {
-            "kind": "customsearch#result",
-            "title": "jam - Wiktionary",
-            "htmlTitle": "<b>jam</b> - Wiktionary",
-            "link": "https://en.wiktionary.org/wiki/jam",
-            "displayLink": "en.wiktionary.org",
-            "snippet": "NounEdit · A sweet mixture of fruit boiled with sugar and allowed to congeal. · (countable) A difficult situation. · (countable) A blockage, congestion, or ...",
-            "htmlSnippet": "NounEdit &middot; A sweet mixture of fruit boiled with sugar and allowed to congeal. &middot; (countable) A difficult situation. &middot; (countable) A blockage, congestion, or&nbsp;...",
-            "cacheId": "uSxVVkSyx_IJ",
-            "formattedUrl": "https://en.wiktionary.org/wiki/jam",
-            "htmlFormattedUrl": "https://en.wiktionary.org/wiki/<b>jam</b>",
-            "pagemap": {
-                "metatags": [
-                    {
-                        "referrer": "origin",
-                        "og:image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Flickr_-_cyclonebill_-_Bolle_med_appelsinmarmelade.jpg/1200px-Flickr_-_cyclonebill_-_Bolle_med_appelsinmarmelade.jpg",
-                        "theme-color": "#eaecf0",
-                        "og:image:width": "1200",
-                        "og:type": "website",
-                        "viewport": "width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=0.25, maximum-scale=5.0",
-                        "og:title": "jam - Wiktionary",
-                        "og:image:height": "900",
-                        "format-detection": "telephone=no"
-                    }
-                ]
-            }
-        },
-        {
-            "kind": "customsearch#result",
-            "title": "Jam Industries: Exertis-JAM Home",
-            "htmlTitle": "<b>Jam</b> Industries: Exertis-<b>JAM</b> Home",
-            "link": "https://jamindustries.com/",
-            "displayLink": "jamindustries.com",
-            "snippet": "Bringing great brands and products to market. Music moves us, music makes the world go round – at Exertis | JAM we bring music to the world.",
-            "htmlSnippet": "Bringing great brands and products to market. Music moves us, music makes the world go round – at Exertis | <b>JAM</b> we bring music to the world.",
-            "cacheId": "xKTlQOPuOLAJ",
-            "formattedUrl": "https://jamindustries.com/",
-            "htmlFormattedUrl": "https://<b>jam</b>industries.com/",
-            "pagemap": {
-                "cse_thumbnail": [
-                    {
-                        "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTdjTyaFA1kTPu9hG1o4hU7ZAmyDJBMRVVTSD7NjYu5Mhyemk7NUQ6I8BU",
-                        "width": "207",
-                        "height": "243"
-                    }
-                ],
-                "metatags": [
-                    {
-                        "og:type": "website",
-                        "twitter:card": "summary_large_image",
-                        "og:site_name": "Jam Industries",
-                        "article:modified_time": "2022-09-06T21:48:14+00:00",
-                        "viewport": "width=device-width, initial-scale=1",
-                        "og:title": "Exertis-JAM Home - Jam Industries",
-                        "og:locale": "en_US",
-                        "twitter:label1": "Est. reading time",
-                        "og:url": "https://jamindustries.com/",
-                        "og:description": "Bringing great brands and products to market. Music moves us, music makes the world go round – at Exertis | JAM we bring music to the world.",
-                        "twitter:data1": "1 minute"
-                    }
-                ],
-                "cse_image": [
-                    {
-                        "src": "https://jamindustries.com/wp-content/uploads/2021/05/card-375-440-Consumer-Electronics-375x440.jpg"
-                    }
-                ]
-            }
-        },
-        {
-            "kind": "customsearch#result",
-            "title": "Jamboard",
-            "htmlTitle": "Jamboard",
-            "link": "https://jamboard.google.com/",
-            "displayLink": "jamboard.google.com",
-            "formattedUrl": "https://jamboard.google.com/",
-            "htmlFormattedUrl": "https://<b>jam</b>board.google.com/"
-        }
-    ]
-}
+    {
+      kind: "customsearch#result",
+      title: "Goat - Wikipedia",
+      htmlTitle: "<b>Goat</b> - Wikipedia",
+      link: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hausziege_04.jpg/640px-Hausziege_04.jpg",
+      displayLink: "en.wikipedia.org",
+      snippet: "Goat - Wikipedia",
+      htmlSnippet: "<b>Goat</b> - Wikipedia",
+      mime: "image/jpeg",
+      fileFormat: "image/jpeg",
+      image: {
+        contextLink: "https://en.wikipedia.org/wiki/Goat",
+        height: 640,
+        width: 640,
+        byteSize: 79618,
+        thumbnailLink:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJcD3p1qOJ4suqj4ENFH914UIwLSuj3SzCht0Kn2CZEi_B2IH_KH8ywYnG&s",
+        thumbnailHeight: 137,
+        thumbnailWidth: 137,
+      },
+    },
+    {
+      kind: "customsearch#result",
+      title: "13 Reasons Never to Drink Goat's Milk | PETA",
+      htmlTitle: "13 Reasons Never to Drink <b>Goat&#39;s</b> Milk | PETA",
+      link: "https://www.peta.org/wp-content/uploads/2016/02/Goats-maximili-602x403.jpg",
+      displayLink: "www.peta.org",
+      snippet: "13 Reasons Never to Drink Goat's Milk | PETA",
+      htmlSnippet: "13 Reasons Never to Drink <b>Goat&#39;s</b> Milk | PETA",
+      mime: "image/jpeg",
+      fileFormat: "image/jpeg",
+      image: {
+        contextLink:
+          "https://www.peta.org/features/reasons-never-to-drink-goats-milk/",
+        height: 403,
+        width: 602,
+        byteSize: 19809,
+        thumbnailLink:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJoj7TIQrSA28RXU9Dpp4fTRLhFZBb8wKoPElfkQxIrAY9SNADRjmB6g&s",
+        thumbnailHeight: 90,
+        thumbnailWidth: 135,
+      },
+    },
+    {
+      kind: "customsearch#result",
+      title:
+        "Mutilation of Goats - FOUR PAWS International - Animal Welfare ...",
+      htmlTitle:
+        "Mutilation of <b>Goats</b> - FOUR PAWS International - Animal Welfare ...",
+      link: "https://media.4-paws.org/0/6/3/0/0630d8405b1935a373c1204b50c2729c7f429202/VIER%20PFOTEN_2019-10-08_065-1930x1335-1920x1328.jpg",
+      displayLink: "www.four-paws.org",
+      snippet:
+        "Mutilation of Goats - FOUR PAWS International - Animal Welfare ...",
+      htmlSnippet:
+        "Mutilation of <b>Goats</b> - FOUR PAWS International - Animal Welfare ...",
+      mime: "image/jpeg",
+      fileFormat: "image/jpeg",
+      image: {
+        contextLink:
+          "https://www.four-paws.org/campaigns-topics/topics/farm-animals/mutilation-of-goats",
+        height: 1328,
+        width: 1920,
+        byteSize: 179064,
+        thumbnailLink:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9Os7G8bYEjjgYA6LpMhfrgkD8SgWgz9XBvYcaVH0GVil2gHxm2Oc3hA&s",
+        thumbnailHeight: 104,
+        thumbnailWidth: 150,
+      },
+    },
+    {
+      kind: "customsearch#result",
+      title:
+        "Old Irish Goats deployed to protect Dublin hills from wildfires ...",
+      htmlTitle:
+        "Old Irish <b>Goats</b> deployed to protect Dublin hills from wildfires ...",
+      link: "https://cloudfront-us-east-2.images.arcpublishing.com/reuters/RQUW7KJN7ZMKJLZ4ASRBL4TGO4.jpg",
+      displayLink: "www.reuters.com",
+      snippet:
+        "Old Irish Goats deployed to protect Dublin hills from wildfires ...",
+      htmlSnippet:
+        "Old Irish <b>Goats</b> deployed to protect Dublin hills from wildfires ...",
+      mime: "image/jpeg",
+      fileFormat: "image/jpeg",
+      image: {
+        contextLink:
+          "https://www.reuters.com/world/europe/old-irish-goats-deployed-protect-dublin-hills-wildfires-2021-09-30/",
+        height: 3280,
+        width: 4928,
+        byteSize: 4540690,
+        thumbnailLink:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROYupjF1y0ULEM-Guw_qROgEXa6WaBKizSZoyWv-c4NsUXI5D8XDAZOg&s",
+        thumbnailHeight: 100,
+        thumbnailWidth: 150,
+      },
+    },
+    {
+      kind: "customsearch#result",
+      title: "The Secret Ingredient in Eau De Goat",
+      htmlTitle: "The Secret Ingredient in Eau De <b>Goat</b>",
+      link: "https://i.natgeofe.com/n/e9023026-7589-45ac-9e71-e510730329f3/Goat-portrait_4x3.jpg",
+      displayLink: "www.nationalgeographic.com",
+      snippet: "The Secret Ingredient in Eau De Goat",
+      htmlSnippet: "The Secret Ingredient in Eau De <b>Goat</b>",
+      mime: "image/jpeg",
+      fileFormat: "image/jpeg",
+      image: {
+        contextLink:
+          "https://www.nationalgeographic.com/science/article/the-secret-ingredient-in-eau-de-goat",
+        height: 2303,
+        width: 3072,
+        byteSize: 623182,
+        thumbnailLink:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-RMV9-7utQaJwf-hGTPDqAbw6C13QmRYKlIcTL2YQCk_c4KJU_XjrbcU&s",
+        thumbnailHeight: 112,
+        thumbnailWidth: 150,
+      },
+    },
+    {
+      kind: "customsearch#result",
+      title:
+        "How Can You Tell If Your Goat Is Happy? Now We Know! : Goats and ...",
+      htmlTitle:
+        "How Can You Tell If Your <b>Goat</b> Is Happy? Now We Know! : <b>Goats</b> and ...",
+      link: "https://media.npr.org/assets/img/2014/12/14/ap798386886673_custom-247a20518bf04f86ef4457d12939f46521c8751b.jpg",
+      displayLink: "www.npr.org",
+      snippet:
+        "How Can You Tell If Your Goat Is Happy? Now We Know! : Goats and ...",
+      htmlSnippet:
+        "How Can You Tell If Your <b>Goat</b> Is Happy? Now We Know! : <b>Goats</b> and ...",
+      mime: "image/jpeg",
+      fileFormat: "image/jpeg",
+      image: {
+        contextLink:
+          "https://www.npr.org/sections/goatsandsoda/2014/12/05/368772449/how-can-you-tell-if-your-goat-is-happy-now-we-know",
+        height: 2635,
+        width: 3956,
+        byteSize: 2034882,
+        thumbnailLink:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq3KYtKmoTj0imrYijf42Xy9KppKiUp3Mb4hqT1JV3geoTfpe4knYU4F4&s",
+        thumbnailHeight: 100,
+        thumbnailWidth: 150,
+      },
+    },
+  ],
+};
