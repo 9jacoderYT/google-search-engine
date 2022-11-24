@@ -24,7 +24,7 @@ export default function SearchResults({ results }) {
               </h2>
             </a>
           </div>
-          <p className="text-gray-600">{result.htmlSnippet}</p>
+          <p className="text-gray-600">{Parser(`${result.htmlSnippet}`)}</p>
         </div>
       ))}
       <PaginationButtons />
